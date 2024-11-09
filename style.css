@@ -1,0 +1,107 @@
+.coder
+{
+border-radius: 15%;
+}
+
+.me
+{
+    font-family: "Poppins", sans-serif;
+    color: rgb(164, 103, 68);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.prof
+{
+    font-family: "Niconne", cursive;
+    font-size: 2rem;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .meimg
+  {
+    border-radius: 50%;
+
+  }
+  hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+hr {
+  border: dotted #83cfcf 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.parent
+{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1,1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 4rem
+}
+.typing
+{
+  margin-right: 50px;
+}
+h3
+{
+  font-family: "Poppins", sans-serif;
+  color: rgb(164, 103, 68);
+}
+p
+{
+  font-family: "Niconne", cursive;
+}
+.skiimg
+{
+  height: 200px;
+  width: 200px;
+}
+.chilli
+{
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.chille
+{
+  margin: 0;
+  padding: 0;
+}
+.parent2
+{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.github
+{
+  border-radius: 50%;
+  height: 50px;
+
+
+}
